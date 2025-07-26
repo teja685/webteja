@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeri Foto</title>
+    <link rel="stylesheet" href="./CSS/galery.css" />
+  </head>
+  <body>
+    <header role="banner" class="header">
+    <div class="container header-container">
+      <a href="index.html" class="brand" aria-label="Ima homepage">TEJAWEB</a>
+      <nav role="navigation" aria-label="primary navigation" class="nav">
+        <a href="index.html" class="nav-link" tabindex="0">Home</a>
+        <a href="news.html" class="nav-link" tabindex="0">News</a>
+        <a href="`foto.html" class="nav-link" tabindex="0">Foto</a>
+        <a href="video.html "class="nav-link" tabindex="0">Video</a>
+        <a href="about.html" class="nav-link" tabindex="0">About</a>
+        <a href="contact.html" class="nav-link" tabindex="0">Contact</a>
+      </nav>
+    </div>
+  </header>
+  
+    <main class="container" role="main" aria-label="Galeri foto">
+      <h1>Galeri Foto</h1>
+      <p class="description">
+        Kumpulan foto pilihan yang menampilkan objek wisata di Provinsi Lampung.
+        Klik pada foto untuk melihat deskripsi lengkap.
+      </p>
+
+      <section class="gallery-grid">
+        <!-- Pasir Putih -->
+        <article class="card">
+          <a href="#modal-pasirputih">
+            <img src="https://storage.googleapis.com/seo-cms/assets/Pantai_Pasir_Putih_Lampung_e3f6f97576/Pantai_Pasir_Putih_Lampung_e3f6f97576.jpg" alt="Pasir Putih" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <h2 class="card-title">Pasir Putih</h2>
+            <p class="card-desc">
+              Pantai dengan pasir putih dan air yang jernih.
+            </p>
+          </div>
+        </article>
+
+        <!-- Tanjung Setia -->
+        <article class="card">
+          <a href="#modal-tanjungsetia">
+            <img src="https://i.ytimg.com/vi/LHTm_4LvI7I/maxresdefault.jpg" alt="Tanjung Setia" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <h2 class="card-title">Tanjung Setia</h2>
+            <p class="card-desc">
+              Pantai terkenal dengan ombak besar untuk selancar.
+            </p>
+          </div>
+        </article>
+
+        <!-- Gigi Hiu -->
+        <article class="card">
+          <a href="#modal-gigihiu">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/1d/7c/90/95/caption.jpg" alt="Gigi Hiu" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <h2 class="card-title">Gigi Hiu</h2>
+            <p class="card-desc">
+              Pantai unik dengan formasi batu karang menyerupai gigi hiu.
+            </p>
+          </div>
+        </article>
+
+        <!-- Sari Ringgung -->
+        <article class="card">
+          <a href="#modal-sariringgung">
+            <img src="https://nativeindonesia.com/foto/2021/06/landmark-pantai-sari-ringgung.jpg" alt="Sari Ringgung" loading="lazy "/  >
+          </a>
+          <div class="card-body">
+            <h2 class="card-title">Sari Ringgung</h2>
+            <p class="card-desc">
+              Pantai populer dengan pasir timbul dan spot foto Instagramable.
+            </p>
+          </div>
+        </article>
+
+        <!-- Klara -->
+        <article class="card">
+          <a href="#modal-klara">
+            <img src="https://th.bing.com/th/id/OIP.0fE634bpcINhmkkoIATa3AHaFj?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3.jpg" alt="Pantai Klara" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <h2 class="card-title">Pantai Klara</h2>
+            <p class="card-desc">
+              Pantai dengan air tenang dan cocok untuk keluarga.
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <!-- MODAL Pasir Putih -->
+    <div class="modal" id="modal-pasirputih">
+      <div class="modal-content">
+        <a href="#" class="close-button">&times;</a>
+        <h2>Pasir Putih</h2>
+        <p>
+          Pasir Putih terkenal karena keindahan pasir putih yang halus dan air
+          laut yang sangat jernih. Lokasi ini juga cocok untuk snorkeling atau
+          sekadar berjemur santai sambil menikmati semilir angin laut.
+        </p>
+      </div>
+    </div>
+
+    <!-- MODAL Tanjung Setia -->
+    <div class="modal" id="modal-tanjungsetia">
+      <div class="modal-content">
+        <a href="#" class="close-button">&times;</a>
+        <h2>Tanjung Setia</h2>
+        <p>
+          Tanjung Setia adalah surga bagi para peselancar, baik lokal maupun
+          mancanegara. Ombaknya tinggi dan stabil sepanjang tahun, menjadikannya
+          salah satu spot surfing terbaik di Indonesia.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- MODAL Sari Ringgung -->
+    <div class="modal" id="modal-sariringgung">
+      <div class="modal-content">
+        <a href="#" class="close-button">&times;</a>
+        <h2>Sari Ringgung</h2>
+        <p>
+          Pantai ini memiliki daya tarik pasir timbul di tengah laut yang bisa
+          dikunjungi saat air surut. Juga tersedia menara pandang dan berbagai
+          spot foto menarik.
+        </p>
+      </div>
+    </div>
+
+    <!-- MODAL Klara -->
+    <div class="modal" id="modal-klara">
+      <div class="modal-content">
+        <a href="#" class="close-button">&times;</a>
+        <h2>Pantai Klara</h2>
+        <p>
+          Nama "Klara" berasal dari "Kelapa Rapat". Pantai ini memiliki air yang
+          tenang dan dangkal, sangat cocok untuk anak-anak dan wisata keluarga.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
